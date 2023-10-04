@@ -39,7 +39,7 @@ class Order: ObservableObject, Codable {
         return true
     }
     
-    var cost:Double {
+    var cost: Double {
         var cost = Double(quantity) * 2
         
         cost += (Double(type) / 2)

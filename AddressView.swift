@@ -15,7 +15,7 @@ struct AddressView: View {
                 TextField ("Name", text: $order.name)
                 TextField ("Street address", text: $order.streetAddress)
                 TextField ("City", text: $order.city)
-                TextField ("City", text: $order.zip)
+                TextField ("Zip", text: $order.zip)
             }
             Section {
                 NavigationLink {

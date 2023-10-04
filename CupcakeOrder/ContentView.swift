@@ -24,7 +24,7 @@ struct ContentView: View {
                              in: 3...20)
                 }
                 Section{
-                    Toggle("Add extra frosting", isOn: $order.specialRequestEnabled.animation())
+                    Toggle("Any Special Requests", isOn: $order.specialRequestEnabled.animation())
                     
                     if order.specialRequestEnabled {
                         Toggle("Add extra frosting", isOn: $order.extraFrosting)
