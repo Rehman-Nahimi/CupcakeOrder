@@ -19,7 +19,7 @@ struct AddressView: View {
             }
             Section {
                 NavigationLink {
-                    Checkout(order: Order())
+                    Checkout(order: order)
                 } label: {
                     Text( "Check out")
                 }
